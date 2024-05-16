@@ -7,8 +7,12 @@ const Header = () => {
         <Link to='/'>
           <div>Home</div>
         </Link>
-        <div>About us</div>
-        <div>Create your plan</div>
+        <Link to='/about-us'>
+          <div>About us</div>
+        </Link>
+        <Link to='/create-your-plan'>
+          <div>Create your plan</div>
+        </Link>
       </div>
       <Outlet />
     </>

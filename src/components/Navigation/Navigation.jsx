@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <>
       <div className='flex justify-end'>
-        <Link to='/about-us'>
-          <div>About Us</div>
+        <Link to='/'>
+          <div>Home</div>
         </Link>
-        <div>two</div>
-        <div>Three</div>
+        <div>About us</div>
+        <div>Create your plan</div>
       </div>
       <Outlet />
     </>

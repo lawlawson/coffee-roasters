@@ -1,6 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
 
-const Header = () => {
+const Navigation = () => {
   return (
     <>
       <div className='flex justify-end'>
@@ -19,4 +19,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navigation;

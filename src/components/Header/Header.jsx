@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <>
+    <div className="bg-[url('/src/assets/home/desktop/image-hero-coffeepress.jpg')]">
       <h1 className='text-4xl font-bold underline'>
         Great coffee made simple.
       </h1>
@@ -10,7 +10,7 @@ const Header = () => {
         your door, at your schedule.
       </p>
       <button>Create your plan</button>
-    </>
+    </div>
   );
 };
 

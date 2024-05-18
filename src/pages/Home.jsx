@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import Collection from '../components/Collection/Collection';
 import Choose from '../components/Choose/Choose';
 import How from '../components/How/How';
+import Footer from '../components/Footer/Footer';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Collection />
       <Choose />
       <How />
+      <Footer />
     </>
   );
 }

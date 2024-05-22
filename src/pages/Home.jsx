@@ -10,10 +10,10 @@ function Home() {
     <>
       <Navigation />
       <Header />
-      <Collection />
+      {/* <Collection />
       <Choose />
       <How />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

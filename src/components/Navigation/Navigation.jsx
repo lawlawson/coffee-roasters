@@ -3,6 +3,9 @@ import { Link, Outlet } from 'react-router-dom';
 const Navigation = () => {
   return (
     <>
+      <div>
+        <p>coffeeroasters</p>
+      </div>
       <div className='flex justify-end'>
         <Link to='/'>
           <div>Home</div>
